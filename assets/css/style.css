@@ -27,3 +27,17 @@ div.questions_section{
     border: 1.5px solid grey;
     margin-top: 5%;
 }
+
+div.questions_section > div.submit {
+    margin-top: 25px;
+}
+
+div.questions_section > div.submit > button.submit_btn {
+    background-color: green;
+    font-size: 26px;
+    padding: 25px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    position: relative;
+}
