@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Roboto:ital,wght@1,700&display=swap');
+
+
 body{
     background-color: white;
 }
 
 div.header{
     font-weight: 700;
+    font-size: 40px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Hanalei Fill', cursive;
 }
 
 div.start{
@@ -47,11 +51,11 @@ div.parent > div.questions_section > div.question > div.question_text > span {
 div.parent > div.questions_section > div.question > div.answer_choices {
     font-size: 20px;
     padding: 20px;
+    cursor: pointer;
 }
 
 div.submit {
     margin-top: 25px;
-    /* margin-bottom: 30px; */
 }
 
 div.submit > button.submit_btn {
@@ -62,6 +66,7 @@ div.submit > button.submit_btn {
     outline: none;
     border-radius: 10px;
     position: relative;
+    cursor: pointer;
 }
 
 
@@ -82,7 +87,7 @@ button.restart{
     color: black;
     background-color: white;
     font-size: 26px;
-    padding: 25px;
+    padding: 20px 30px 20px 30px;
     border-color: black;
     border-radius: 10px;
     position: relative;
