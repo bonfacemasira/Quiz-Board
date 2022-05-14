@@ -26,6 +26,7 @@ div.start > button{
     border-radius: 10px;
     position: relative;
     color: white;
+    cursor: pointer;
 }
 
 /* Questions Section */
@@ -51,7 +52,15 @@ div.parent > div.questions_section > div.question > div.question_text > span {
 div.parent > div.questions_section > div.question > div.answer_choices {
     font-size: 20px;
     padding: 20px;
-    cursor: pointer;
+}
+
+div.parent > div.questions_section > div.question > div.answer_choices > form.choice > div{
+    border: 1px solid #84c5fe;
+    background: aliceblue;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-bottom: 5px;
+
 }
 
 div.submit {
@@ -69,6 +78,15 @@ div.submit > button.submit_btn {
     cursor: pointer;
 }
 
+input{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+form.choice > div {
+    justify-content: center;
+}
 
 /* Results Section */
 div.results_container{
@@ -92,5 +110,6 @@ button.restart{
     border-radius: 10px;
     position: relative;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
