@@ -28,11 +28,12 @@ div.questions_section{
     margin-top: 5%;
 }
 
-div.questions_section > div.submit {
+div.submit {
     margin-top: 25px;
+    margin-bottom: 30px;
 }
 
-div.questions_section > div.submit > button.submit_btn {
+div.submit > button.submit_btn {
     background-color: green;
     font-size: 26px;
     padding: 25px;
