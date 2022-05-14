@@ -5,6 +5,7 @@ body{
 div.header{
     font-weight: 700;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 div.start{
@@ -31,16 +32,26 @@ div.parent{
     justify-content: center;
 }
 
-div.questions_section{
+div.parent > div.questions_section{
     border: 2px solid grey;
     width: 60%;
     margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
 
+div.parent > div.questions_section > div.question > div.question_text > span {
+    font-size: 25px;
+}
+
+div.parent > div.questions_section > div.question > div.answer_choices {
+    font-size: 20px;
+    padding: 20px;
 }
 
 div.submit {
     margin-top: 25px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 div.submit > button.submit_btn {
@@ -64,6 +75,7 @@ div.results{
     text-align: center;
     border: 2px solid grey;
     margin-bottom: 20px ;
+    border-radius: 10px;
 }
 
 button.restart{
