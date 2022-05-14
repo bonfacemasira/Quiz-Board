@@ -23,9 +23,19 @@ div.start > button{
     color: white;
 }
 
+/* Questions Section */
+
+div.parent{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
 div.questions_section{
-    border: 1.5px solid grey;
-    margin-top: 5%;
+    border: 2px solid grey;
+    width: 60%;
+    margin: auto;
+
 }
 
 div.submit {
@@ -42,3 +52,28 @@ div.submit > button.submit_btn {
     border-radius: 10px;
     position: relative;
 }
+
+
+/* Results Section */
+div.results_container{
+    width: 60%;
+    margin: auto;
+}
+
+div.results{
+    text-align: center;
+    border: 2px solid grey;
+    margin-bottom: 20px ;
+}
+
+button.restart{
+    color: black;
+    background-color: white;
+    font-size: 26px;
+    padding: 25px;
+    border-color: black;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
