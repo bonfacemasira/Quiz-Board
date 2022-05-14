@@ -1,0 +1,29 @@
+body{
+    background-color: white;
+}
+
+div.header{
+    font-weight: 700;
+    text-align: center;
+}
+
+div.start{
+    text-align: center;
+}
+
+div.start > button{
+    font-size: 26px;
+    padding: 25px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    border-color: blue;
+    border-radius: 10px;
+    position: relative;
+    color: white;
+}
+
+div.questions_section{
+    border: 1.5px solid grey;
+    margin-top: 5%;
+}
