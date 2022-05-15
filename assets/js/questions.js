@@ -1,11 +1,8 @@
-// start of  quiz test functionality
 const quizData = document.querySelector('.parent');
 const displayResult = document.querySelector('.results');
 const marks = document.querySelector('.marks');
-const submit = document.getElementById('submit');
+const submit = document.querySelector('.submit_btn');
 const correctChoices = ['a', 'b', 'b', 'a', 'a'];
-
-submit.onclick
 
 quizData.addEventListener('submit', e => {
   e.preventDefault();
