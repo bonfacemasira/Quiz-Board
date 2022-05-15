@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-    <script src="./assets/js/script.js"></script>
+    <!-- <script src="./assets/js/script.js"></script> -->
+    <script src="./assets/js/questions.js"></script>
     <!-- Header -->
     <div class="header">
         <h1>QUIZ BOARD</h1>
     </div>
 
     <!-- Start Button -->
-    <div class="start">
+    <div class="start" id="start">
         <button>START QUIZ</button>
     </div>
 
@@ -33,18 +34,18 @@
                 </div>
                 <div class="answer_choices">
                     <form class="choice">
-                        <div>
-                            <input type="radio"  name="question1">
+                        <div class="answer">
+                            <input type="radio"  name="question1" value="a">
                             <label class="container">HTML <!--correct answer-->
                             </label>
                         </div>
-                        <div>
-                            <input type="radio"  name="question1">
+                        <div class="answer">
+                            <input type="radio"  name="question1" value="b">
                             <label class="container">HMLT
                             </label>
                         </div>
-                        <div>
-                            <input type="radio"  name="question1">
+                        <div class="answer">
+                            <input type="radio"  name="question1"value="c">
                             <label class="container">MLHT
                             </label>
                         </div>
@@ -60,18 +61,18 @@
                 </div>
                 <div class="answer_choices">
                     <form class="choice">
-                        <div>
-                            <input type="radio" name="question2">
+                        <div class="answer">
+                            <input type="radio" name="question2" value="a">
                             <label class="container">ECMAscript
                             </label>
                         </div>
-                        <div>
-                            <input type="radio" name="question2">
+                        <div class="answer">
+                            <input type="radio" name="question2" value="b">
                             <label class="container">JS <!--correct answer-->
                             </label>
                         </div>
-                        <div>
-                            <input type="radio" name="question2">
+                        <div class="answer">
+                            <input type="radio" name="question2" value="c">
                             <label class="container">I don't know
                             </label>
                         </div>
@@ -87,13 +88,13 @@
                 </div>
                 <div class="answer_choices">
                     <form class="choice">
-                        <div>
-                            <input type="radio" name="question3">
+                        <div class="answer">
+                            <input type="radio" name="question3" value="a">
                             <label class="container">Yes
                             </label>
                         </div>
-                        <div>
-                            <input type="radio" name="question3">
+                        <div class="answer">
+                            <input type="radio" name="question3" value="b">
                             <label class="container">No <!--correct answer-->
                             </label>
                         </div>
@@ -110,18 +111,18 @@
                 </div>
                 <div class="answer_choices">
                     <form class="choice">
-                        <div>
-                            <input type="radio" name="question4">
+                        <div class="answer">
+                            <input type="radio" name="question4" value="a">
                             <label class="container">myFunction() <!--correct answer-->
                             </label>
                         </div>
-                        <div>
-                            <input type="radio" name="question4">
+                        <div class="answer">
+                            <input type="radio" name="question4" value="b">
                             <label class="container">call myFunction()
                             </label>
                         </div>
-                        <div>
-                            <input type="radio" name="question4">
+                        <div class="answer">
+                            <input type="radio" name="question4" value="c">
                             <label class="container">call function myFunction()
                             </label>
                         </div>
@@ -137,40 +138,38 @@
                 </div>
                 <div class="answer_choices">
                     <form class="choice">
-                        <div>
-                            <input type="radio" name="question5">
+                        <div  class="answer">
+                            <input type="radio" name="question5" value="a">
                             <label class="container"> function myFunction() <!--correct answer-->
                             </label>
                         </div>
-                        <div>
-                            <input type="radio" name="question5">
+                        <div  class="answer">
+                            <input type="radio" name="question5" value="b">
                             <label class="container">function=myFunction()
                             </label>
                         </div>
-                        <div>
-                            <input type="radio" name="question5">
+                        <div  class="answer">
+                            <input type="radio" name="question5" value="c">
                             <label class="container">function:myFunction()
                             </label>
-                        </div>
+                        </div  class="answer">
                     </form>
                 </div>
             </div>
-            
-            <div class="submit">
+
+            <!-- Submit Button -->
+            <div class="submit" id="submit">
                 <button class="submit_btn">Submit</button>
-            </div>
+            </div> 
     
         </div>
     </div>
-
-
-    <!-- Submit Button -->
 
     <!-- Results -->
     <div class="results_container">
         <div class="results">
             <h1>Your Score is:</h1>
-            <h1>Score</h1>
+            <h1><span class="marks"> 0% </span></h1>
 
             <!-- restart Button -->
 
