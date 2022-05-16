@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-    <script src="./assets/js/questions.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <!-- <script src="./assets/js/questions.js"></script> -->
+   
     <!-- Header -->
     <div class="header">
         <h1>QUIZ BOARD</h1>
@@ -18,7 +18,7 @@
 
     <!-- Start Button -->
     <div class="start" id="start">
-        <button>START QUIZ</button>
+        <button onclick="startQuiz">START QUIZ</button>
     </div>
 
 
@@ -35,7 +35,7 @@
                 <div class="answer_choices">
                     <form class="choice">
                         <div class="answer">
-                            <input type="radio"  name="question1" value="a">
+                            <input type="radio"  name="question1" value="a" id="cr1">
                             <label class="container">HTML <!--correct answer-->
                             </label>
                         </div>
@@ -67,7 +67,7 @@
                             </label>
                         </div>
                         <div class="answer">
-                            <input type="radio" name="question2" value="b">
+                            <input type="radio" name="question2" value="b" id="cr2">
                             <label class="container">JS <!--correct answer-->
                             </label>
                         </div>
@@ -94,7 +94,7 @@
                             </label>
                         </div>
                         <div class="answer">
-                            <input type="radio" name="question3" value="b">
+                            <input type="radio" name="question3" value="b" id="cr3">
                             <label class="container">No <!--correct answer-->
                             </label>
                         </div>
@@ -112,7 +112,7 @@
                 <div class="answer_choices">
                     <form class="choice">
                         <div class="answer">
-                            <input type="radio" name="question4" value="a">
+                            <input type="radio" name="question4" value="a" id="cr4">
                             <label class="container">myFunction() <!--correct answer-->
                             </label>
                         </div>
@@ -139,7 +139,7 @@
                 <div class="answer_choices">
                     <form class="choice">
                         <div  class="answer">
-                            <input type="radio" name="question5" value="a">
+                            <input type="radio" name="question5" value="a" id="cr5">
                             <label class="container"> function myFunction() <!--correct answer-->
                             </label>
                         </div>
@@ -159,7 +159,7 @@
 
             <!-- Submit Button -->
             <div class="submit">
-                <button class="submit_btn">Submit</button>
+                <button class="submit_btn" type="button" onclick="submit()">Submit</button>
             </div> 
     
         </div>
@@ -174,12 +174,12 @@
             <!-- restart Button -->
 
             <div class="restart">
-                <button class="restart">Restart</button>
+                <button class="restart" onclick="reloadQuiz">Restart</button>
             </div>
         </div>
  
     </div>
 
-    
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
