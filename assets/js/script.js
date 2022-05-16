@@ -1,4 +1,5 @@
 let questions = document.getElementsByClassName('question');
+let marks = document.querySelector('.marks');
 
  
 function submit(){
@@ -26,6 +27,6 @@ function submit(){
         results +=20;
        }
 
-    alert(results);
-    
+    marks.textContent = results + '%';
 }
+
