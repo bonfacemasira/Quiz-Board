@@ -1,6 +1,10 @@
 let questions = document.getElementsByClassName('question');
 let marks = document.querySelector('.marks');
 
+
+function reloadQuiz(){
+    location.reload()
+}
  
 function submit(){
 
